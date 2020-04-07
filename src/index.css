@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('https://lh3.googleusercontent.com/proxy/9r4JXNS268HaRXe9zCWUzb6Y3PwwG85PaS4Ef_jgB0BpGM-KKdSBQzvim37mmkbffXra3IT6pm2Xx1IO5LynjY-3i5upsvs5WOIFKkhHQ9xw7YYJ6K-TpEkoZ6wQ3_gh0SLTQpzrT6TJLV8');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2, h1, h3, p{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h3{
+  text-transform: capitalize;
+}
+
+form {
+  display: flex;
+  justify-content: center;
 }
